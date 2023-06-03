@@ -74,6 +74,7 @@ a.active,a:hover{
     height: auto; 
     border-top: 5px solid #60b033;   
     z-index: -2;
+    padding-bottom: 50px;
 }
 .main-right-section{
     flex-basis: 150%;
@@ -81,7 +82,7 @@ a.active,a:hover{
     text-align: right;
     width: 100%;
     margin-right: 125px;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 .main-right-section h1{
     position: relative;
@@ -109,18 +110,18 @@ button{
     width: fit-content;
 }
 .main-left-section{
+    padding-top: 150px;
+    flex-basis: 80%;
     position: relative;
     display: flex;
-    align-items: center;
 }
 .main-left-section .phoneOverView{
-    width: 90%;
-    height: auto;
-    margin-top: 85px;
+    width: 100%;
+    height: 100%;
 }
 .line{
     position: absolute;
-    margin-top: 400px;
+    margin-top: 350px;
     width: 100%;
     height: 40px;
     background: #60b033;
@@ -130,7 +131,7 @@ button{
     height: 1000px;
     background-color: #ffffff;
 }
-@media (max-width: 860px){
+@media (max-width: 902px){
     .checkbtn{
         display: block;
     }
@@ -173,13 +174,15 @@ button{
     }
     .main{
         height: 450px;
+        padding-bottom: 0;
+        padding-bottom: 25px;
     }
     .main-right-section{
         margin: 0 20px;
     }
     .main-right-section h1{
         padding: 0;
-        padding-top: 25px;
+        padding-top: 100px;
         font-size: 30px; /*make it 30px later*/
     }
     .main-right-section p{
@@ -191,43 +194,48 @@ button{
         font-size: 20px;
     }
     .main-left-section{
+        padding: 0;
+        padding-top: 90px;
+        flex-basis: 100%;
+    }
+    .main-left-section .phoneOverView{
+        position: static;
+        height: 100%;
+        width: 150%;
+        margin: 0;
+        
+    }
+    .line{
+        height: 15px;
+        margin: 0;
+        margin-top: 275px;
+    }
+}
+@media (max-width: 540px){
+    .main-left-section{
         flex-basis: 10%;
     }
     .main-left-section .phoneOverView{
         position: static;
         height: auto;
-        width: 350px;
+        width: 1250%;
         margin: 0;
         margin-top: 100px;
+        margin-left: -25px;
     }
     .line{
         height: 15px;
         margin: 0;
-        margin-top: 250px;
+        margin-top: 275px;
+        
     }
 }
-@media (max-width: 690px){
-    .main-left-section .phoneOverView{
-        position: static;
-        height: auto;
-        width: 850%;
-        margin: 0;
-        margin-top: 100px;
-    }
-}
-@media (max-width: 360px){
-    .main-left-section .phoneOverView{
-        position: static;
-        height: auto;
-        width: 1200%;
-        margin: 0;
-        margin-top: 100px;
-        margin-right: 20px;
-    }
+@media (max-width: 361px){
     .line{
         height: 15px;
         margin: 0;
-        margin-top: 285px;
+        margin-top: 310px;
+        
     }
 }
 
