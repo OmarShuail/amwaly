@@ -70,7 +70,7 @@ a.active,a:hover{
     position: relative;
     display: flex;
     justify-content: space-between;
-    background-color: #1c1d21;
+    background: radial-gradient(circle, #2c2d30, #171717);
     height: auto; 
     border-top: 5px solid #60b033;   
     z-index: -2;
