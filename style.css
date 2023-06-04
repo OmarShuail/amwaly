@@ -224,16 +224,14 @@ button{
         margin-left: -25px;
     }
     .line{
-        height: 15px;
-        margin: 0;
-        margin-top: 275px;
-        
+        display: none;
+        /* removed lines in phones*/
     }
 }
 @media (max-width: 362px){
     .line{
-        display: none;
-        
+        margin: 0;
+        margin-top: 345px;
     }
     button{
         margin: 0;
