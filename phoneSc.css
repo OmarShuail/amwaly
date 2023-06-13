@@ -1,0 +1,108 @@
+@media (max-width: 902px){
+    .checkbtn{
+        display: block;
+    }
+    nav .title{
+        font-size: 40px;
+    }
+    nav .logo{
+        padding-right: 20px;
+        height: 50px;
+    }
+    nav ul li a{
+        font-size: 18px;
+    }
+    ul.active{
+        position: fixed;
+        width: 100%;
+        top: 80px;
+        height: 100vh;
+        text-align: center;
+        background: #2c2d30;
+        transition: all 0.5s;
+        left: -100%; /* hiding the ul to the left side*/
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;    
+    }
+    nav ul li a{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #60b033;
+        transition: all 0.5s;
+    }
+    #check:checked ~ ul{
+        left: 0; /* idk why but this important to make the list show when clicking the button*/
+    }
+    .main{
+        height: 450px;
+        padding-bottom: 0;
+        padding-bottom: 25px;
+    }
+    .main-right-section{
+        margin: 0 20px;
+    }
+    .main-right-section h1{
+        padding: 0;
+        padding-top: 100px;
+        font-size: 30px; /*make it 30px later*/
+    }
+    .main-right-section p{
+        font-size: 20px;
+    }
+    button{
+        margin: 0;
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .main-left-section{
+        padding: 0;
+        padding-top: 90px;
+        flex-basis: 100%;
+    }
+    .main-left-section .phoneOverView{
+        position: static;
+        height: 100%;
+        width: 150%;
+        margin: 0;
+        
+    }
+    .greenline{
+        height: 15px;
+        margin: 0;
+        margin-top: 275px;
+    }
+}
+@media (max-width: 540px){
+    .main-left-section{
+        flex-basis: 10%;
+    }
+    .main-left-section .phoneOverView{
+        position: static;
+        height: auto;
+        width: 1250%;
+        margin: 0;
+        margin-top: 100px;
+        margin-left: -25px;
+    }
+    .greenline{
+        display: none;
+        /* removed lines in phones*/
+    }
+}
+@media (max-width: 362px){
+    .greenline{
+        margin: 0;
+        margin-top: 345px;
+    }
+    button{
+        margin: 0;
+        margin-top: 95px;
+        font-size: 20px;
+    }
+}

@@ -8,7 +8,9 @@
 .container{
     width: 100%;
     min-height: 100vh;
+    /*
     box-sizing: border-box;
+    */
     overflow: hidden;
 }
 .navbar{
@@ -46,6 +48,7 @@ nav ul li{
     line-height: 80px;
     margin: 0 5px;
     padding: 0 20px;
+    
 }
 nav ul li a{
     color: #000000;
@@ -61,17 +64,22 @@ a.active,a:hover{
 }
 .checkbtn{
     font-size: 30px;
-    padding-left: 40px;
+    padding-left: 10px;
     cursor: pointer;
     display: none; /* making it disappear for all screen sizes*/
     line-height: 80px;
 }
+
+
+/* MAIN SECTION */
+
+
 .main{
     position: relative;
     display: flex;
     justify-content: space-between;
     background: radial-gradient(circle, #2c2d30, #171717);
-    height: auto; 
+    height: 720px; 
     border-top: 5px solid #60b033;   
     z-index: -2;
     padding-bottom: 50px;
@@ -116,10 +124,9 @@ button{
     display: flex;
 }
 .main-left-section .phoneOverView{
-    width: 100%;
     height: 100%;
 }
-.line{
+.greenline{
     position: absolute;
     margin-top: 350px;
     width: 100%;
@@ -127,116 +134,40 @@ button{
     background: #60b033;
     z-index: -1;
 }
-.TEMP{
-    height: 1000px;
-    background-color: #ffffff;
-}
-@media (max-width: 902px){
-    .checkbtn{
-        display: block;
-    }
-    nav .title{
-        font-size: 40px;
-    }
-    nav .logo{
-        padding-right: 20px;
-        height: 50px;
-    }
-    nav ul li a{
-        font-size: 18px;
-    }
-    ul.active{
-        position: fixed;
-        width: 100%;
-        top: 80px;
-        height: 100vh;
-        text-align: center;
-        background: #2c2d30;
-        transition: all 0.5s;
-        left: -100%; /* hiding the ul to the left side*/
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;    
-    }
-    nav ul li a{
-        color: #ffffff;
-        font-size: 30px;
-    }
-    a:hover,a.active{
-        background: none;
-        color: #60b033;
-        transition: all 0.5s;
-    }
-    #check:checked ~ ul{
-        left: 0; /* idk why but this important to make the list show when clicking the button*/
-    }
-    .main{
-        height: 450px;
-        padding-bottom: 0;
-        padding-bottom: 25px;
-    }
-    .main-right-section{
-        margin: 0 20px;
-    }
-    .main-right-section h1{
-        padding: 0;
-        padding-top: 100px;
-        font-size: 30px; /*make it 30px later*/
-    }
-    .main-right-section p{
-        font-size: 20px;
-    }
-    button{
-        margin: 0;
-        margin-top: 60px;
-        font-size: 20px;
-    }
-    .main-left-section{
-        padding: 0;
-        padding-top: 90px;
-        flex-basis: 100%;
-    }
-    .main-left-section .phoneOverView{
-        position: static;
-        height: 100%;
-        width: 150%;
-        margin: 0;
-        
-    }
-    .line{
-        height: 15px;
-        margin: 0;
-        margin-top: 275px;
-    }
-}
-@media (max-width: 540px){
-    .main-left-section{
-        flex-basis: 10%;
-    }
-    .main-left-section .phoneOverView{
-        position: static;
-        height: auto;
-        width: 1250%;
-        margin: 0;
-        margin-top: 100px;
-        margin-left: -25px;
-    }
-    .line{
-        display: none;
-        /* removed lines in phones*/
-    }
-}
-@media (max-width: 362px){
-    .line{
-        margin: 0;
-        margin-top: 345px;
-    }
-    button{
-        margin: 0;
-        margin-top: 95px;
-        font-size: 20px;
-    }
-}
 
+/* FEATURES SECTION */
+.heading-features{
+    padding-top: 75px;
+    text-align: center;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.features div{
+    color: black;
+    height: 350px;
+    width: 350px;
+    background-color: #999999;
+    text-align: center;
+    font-size: 20px; 
+    margin: 10px;
+    /*
+    border: 3px solid black;
+    */
+    border-radius: 20px;
+}
+.features .income{
+    background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
+}
+.features .invest{
+    background-image: linear-gradient(to bottom right, #FFD26f, #3677FF);
+}
+.features .emergency{
+    background-image: linear-gradient(to bottom right, #F05F57, #360940);
+}
