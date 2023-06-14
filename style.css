@@ -8,9 +8,6 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    /*
-    box-sizing: border-box;
-    */
     overflow: hidden;
 }
 .navbar{
@@ -79,63 +76,61 @@ a.active,a:hover{
     display: flex;
     justify-content: space-between;
     background: radial-gradient(circle, #2c2d30, #171717);
-    height: 720px; 
+    height: 720px;
     border-top: 5px solid #60b033;   
     z-index: -2;
     padding-bottom: 50px;
 }
 .main-right-section{
-    flex-basis: 150%;
-    position: relative;
-    text-align: right;
-    width: 100%;
+   /* width: 100%; not important maybe*/
     margin-right: 125px;
     padding-top: 30px;
+    text-align: right;
 }
 .main-right-section h1{
-    position: relative;
     font-size: 50px;
     padding-top: 100px;
     color: #ffffff;
 }
 .main-right-section p{
-    position: relative;
     font-size: 25px;
     font-weight: 100;
-    color: #b7b7b7;
+    padding: 2px;
+    /*color: #b7b7b7; original color*/
+     color: #ccc;
 }
 button{
-    position: relative;
-    font-size: 40px;
-    border-color: #263a1d;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #000000;
+    font-size: 45px;
     color: #ffffff;
+    border: 1px solid #263a1d;
+    box-shadow: 0 0 10px #000000;
     background-color: #60b033;
+    border-radius: 20px;
     padding: 5px 20px;
-    margin-top: 105px;
+    margin-top: 165px;
     width: fit-content;
 }
 .main-left-section{
-    padding-top: 150px;
-    flex-basis: 80%;
-    position: relative;
-    display: flex;
+    padding-top: 125px;
 }
 .main-left-section .phoneOverView{
-    height: 100%;
+    position: absolute;
+    height: 75%;
+    margin-left: -30px;
 }
 .greenline{
     position: absolute;
-    margin-top: 350px;
+    top: 450px;
     width: 100%;
     height: 40px;
     background: #60b033;
     z-index: -1;
 }
 
+
 /* FEATURES SECTION */
+
+
 .heading-features{
     padding-top: 75px;
     text-align: center;

@@ -1,4 +1,4 @@
-@media (max-width: 902px){
+@media (max-width: 939px){
     .checkbtn{
         display: block;
     }
@@ -39,70 +39,87 @@
     #check:checked ~ ul{
         left: 0; /* idk why but this important to make the list show when clicking the button*/
     }
+    
     .main{
-        height: 450px;
-        padding-bottom: 0;
-        padding-bottom: 25px;
+        height: 400px;
     }
+    
     .main-right-section{
-        margin: 0 20px;
+        margin: 0;
+        margin-right: 25px;
     }
     .main-right-section h1{
         padding: 0;
         padding-top: 100px;
-        font-size: 30px; /*make it 30px later*/
+        font-size: 30px; 
     }
     .main-right-section p{
-        font-size: 20px;
+        font-size: 16.5px;
     }
     button{
         margin: 0;
-        margin-top: 60px;
-        font-size: 20px;
+        margin-top: 50px;
+        font-size: 25px;
     }
     .main-left-section{
-        padding: 0;
-        padding-top: 90px;
-        flex-basis: 100%;
+        padding-top: 115px;
+    }
+    .main-left-section .phoneOverView{
+        height: 65%;
+    }
+    
+    .greenline{
+        height: 15px;
+        margin: 0;
+    }
+
+}
+@media (max-width: 609px){
+    /*
+    .main-left-section{
     }
     .main-left-section .phoneOverView{
         position: static;
         height: 100%;
-        width: 150%;
         margin: 0;
-        
-    }
-    .greenline{
-        height: 15px;
-        margin: 0;
-        margin-top: 275px;
-    }
-}
-@media (max-width: 540px){
-    .main-left-section{
-        flex-basis: 10%;
-    }
-    .main-left-section .phoneOverView{
-        position: static;
-        height: auto;
-        width: 1250%;
-        margin: 0;
-        margin-top: 100px;
-        margin-left: -25px;
     }
     .greenline{
         display: none;
-        /* removed lines in phones*/
     }
+    */
 }
-@media (max-width: 362px){
+@media (max-width: 480px){
+    .main-right-section{
+        margin: 0;
+        margin-right: 10px;
+    }
+    .main-right-section h1{
+        padding: 0;
+        padding-top: 100px;
+        font-size: 25px; 
+    }
+    .main-right-section p{
+        font-size: 13px;
+    }
+    button{
+        
+    }
+    .main-left-section{
+        padding-top: 150px;
+    }
+    .main-left-section .phoneOverView{
+        padding: 25px;
+    }
+    /*
     .greenline{
         margin: 0;
         margin-top: 345px;
     }
+    */
     button{
         margin: 0;
-        margin-top: 95px;
+        margin-top: 65px;
         font-size: 20px;
     }
+    
 }
