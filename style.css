@@ -141,18 +141,20 @@ button{
     text-align: center;
 }
 .features{
+    /*
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
-    justify-content: center;
+    */
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 .features div{
     color: black;
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 500px;
     background-color: #999999;
     text-align: center;
     font-size: 20px; 
@@ -161,13 +163,62 @@ button{
     border: 3px solid black;
     */
     border-radius: 20px;
+    
 }
 .features .income{
     background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
+    margin-left: auto;
+    margin-right: 125px;
 }
 .features .invest{
-    background-image: linear-gradient(to bottom right, #FFD26f, #3677FF);
+    background-image: linear-gradient(to bottom right, #FAB2FF, #1904E5);
+    margin-left: 125px;
+    margin-top: 50px;
 }
 .features .emergency{
     background-image: linear-gradient(to bottom right, #F05F57, #360940);
+    margin-left: auto;
+    margin-right: 125px;
+    margin-top: 50px; 
+}
+.features .spending{
+    background-image: linear-gradient(to bottom right, #FFA8A8, #FCFF00);
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.features .loan{
+    background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
+    margin-left: auto;
+    margin-right: 125px;
+    margin-top: 50px; 
+}
+.features .donation{
+    background-image: linear-gradient(to bottom right, #FFD26f, #3677FF);
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+
+/* DEV SECTION */
+
+
+.dev-Container{
+    height: auto;
+    padding-bottom: 100px;
+    border-top: 25px solid #60b033;
+}
+.heading-dev{
+    padding-top: 75px;
+    text-align: center;
+}
+.dev{
+    text-align: center;
+}
+.dev h2{
+    padding-top: 100px;
+}
+
+.dev h3 {
+    padding-top: 25px;
+    text-align: center;
 }
