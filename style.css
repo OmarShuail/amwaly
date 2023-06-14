@@ -21,6 +21,7 @@ nav{
     height: 80px;
     background: #ffffff;
     border-bottom: 5px solid #60b033; 
+    
 }
 .logo{
     float: right;
@@ -36,8 +37,12 @@ nav{
     padding-right: 20px;
 }
 nav ul{
-    float: none;
+    position: absolute;
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     text-align: center;
 }
 nav ul li{
