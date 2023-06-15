@@ -1,4 +1,4 @@
-@media (max-width: 939px){
+@media (max-width: 940px){
     .checkbtn{
         display: block;
     }
@@ -40,45 +40,12 @@
         left: 0; /* idk why but this important to make the list show when clicking the button*/
     }
     .main{
-        height: 675px;
+        height: 670px;
     }
-    
-    .main-right-section{
-        margin: 0;
-        margin-right: 25px;
+    .main img{
+        top: 210px;
+        height: 60%;
     }
-    .main-left-section{
-        padding-top: 200px;
-    }
-    .main-left-section .phoneOverView{
-        height: 65%;
-    }
-    /*
-    .main-right-section h1{
-        padding: 0;
-        padding-top: 100px;
-        font-size: 30px; 
-    }
-    .main-right-section p{
-        font-size: 16.5px;
-    }
-    button{
-        margin: 0;
-        margin-top: 50px;
-        font-size: 25px;
-    }
-    .main-left-section{
-        padding-top: 115px;
-    }
-    .main-left-section .phoneOverView{
-        height: 65%;
-    }
-    
-    .greenline{
-        height: 15px;
-        margin-top: -160px;
-    }
-    */
     .features .income{
         margin-left: auto;
         margin-right: auto;
@@ -111,7 +78,41 @@
     }
 
 }
-
+@media(max-width: 671px){
+    .main{
+        padding-right: 0;
+    }
+    .main h1{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 85px;
+        color: #ffffff;
+    }
+    .main p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .mainLeft{
+        text-align: center;
+        padding-right: 295px;
+    }
+    .main img{
+        height: 45%;
+        top: 325px;
+    }
+    .main .mainRight{
+        padding-top: 0;
+        text-align: center;
+    }
+    .downloadButton{
+        margin: 0;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    .greenline{
+        display: none;
+    }
+}
 @media (max-width: 480px){
     .main-right-section{
         margin: 0;
@@ -135,10 +136,10 @@
         margin-top: 120px;
         height: 45%;
     }
-    button{
+    .downloadButton{
         margin: 0;
         margin-top: 25px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .greenline{
         display: none;
