@@ -105,7 +105,6 @@
         text-align: center;
     }
     .downloadButton{
-        margin: 0;
         margin-top: 25px;
         font-size: 30px;
     }
@@ -113,99 +112,27 @@
         display: none;
     }
 }
-@media (max-width: 480px){
-    .main-right-section{
-        margin: 0;
-        margin-right: auto;
-        margin-left: auto;
+@media (max-width: 400px){
+    .main h1{
         text-align: center;
+        font-size: 30px;
+        padding-top: 85px;
+        color: #ffffff;
     }
-    .main-right-section h1{
-        padding: 0;
-        padding-top: 80px;
-        font-size: 25px; 
-    }
-    .main-right-section p{
-        font-size: 1.0rem;
-    }
-    .main-left-section{
-        padding-top: 200px;
-    }
-    .main-left-section .phoneOverView{
-        margin-left: 30px;
-        margin-top: 120px;
-        height: 45%;
+    .main p{
+        text-align: center;
+        font-size: 15px;
     }
     .downloadButton{
         margin: 0;
         margin-top: 25px;
-        font-size: 30px;
+        font-size: 100px;
+    }
+    .downloadButton{
+        margin-top: 25px;
+        font-size: 25px;
     }
     .greenline{
         display: none;
     }
-    /*
-    .main-right-section{
-        margin: 0;
-        margin-right: 10px;
-    }
-    .main-right-section h1{
-        padding: 0;
-        padding-top: 100px;
-        font-size: 25px; 
-    }
-    .main-right-section p{
-        font-size: 15px;
-    }
-    button{
-        margin: 0;
-        margin-top: 65px;
-        font-size: 20px;
-    }
-    .main-left-section{
-        padding-top: 150px;
-        margin-left: -15px;
-    }
-    .main-left-section .phoneOverView{
-        padding: 25px;
-    }
-    
-    .greenline{
-        display: none;
-    }
-    */
 }
-/*
-@media (max-width: 505px){
-    .features .income{
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-    .features .invest{
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-    .features .emergency{
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-    .features .spending{
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-    .features .loan{
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-    .features .donation{
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-}
-*/
