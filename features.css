@@ -1,0 +1,172 @@
+.features{
+    /*
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    */
+    position: relative;
+    justify-content: space-around;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    z-index: -1;
+}
+.features div{
+    color: black;
+    height: 250px;
+    width: 550px;
+    background-color: #999999;
+    text-align: center;
+    font-size: 20px; 
+    margin: 10px;
+    padding-right: 20px;
+    /*
+    border: 3px solid black;
+    */
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50)
+}
+.features p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: Montserrat;
+}
+
+
+.features .income{
+    background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
+    margin-left: auto;
+    margin-right: 125px;
+    text-align: left;
+}
+.income #a1{
+    text-align: right;
+    padding-top: 75px;
+}
+.income #a2{
+    text-align: right;
+}
+.income img{
+    position: absolute;
+    height: 13%;
+    margin-left: -20px;
+}
+.moneyIcone{
+    position: absolute;
+    height: 10%;
+    margin-left: 19rem;
+    top: 8rem;
+}
+
+
+
+.features .invest{
+    background-image: linear-gradient(to bottom right, #FAB2FF, #1904E5);
+    margin-left: 125px;
+    margin-top: 50px;
+    text-align: left;
+}
+.invest #b1{
+    text-align: right;
+    padding-top: 80px;
+}
+.invest #b2{
+    text-align: right;    
+}
+.invest img{
+    position: absolute;
+    height: 13.5%;   
+    margin-top: -145px;
+    margin-left: -20px;
+}
+
+
+
+.features .emergency{
+    background-image: linear-gradient(to bottom right, #F05F57, #360940);
+    margin-left: auto;
+    margin-right: 125px;
+    text-align: left;
+}
+.emergency #c1{
+    text-align: right;
+    padding-top: 80px;
+}
+.emergency #c2{
+    text-align: right;
+}
+.emergency img{
+    position: absolute;
+    height: 13%;
+    margin-left: -20px;
+    margin-top: -135px;
+}
+
+
+
+.features .spending{
+    background-image: linear-gradient(to bottom right, #FFA8A8, #FCFF00);
+    margin-left: 125px;
+    margin-top: 50px;
+    text-align: left;
+}
+.spending #d1{
+    text-align: right;
+    padding-top: 80px;
+}
+.spending #d2{
+    text-align: right;    
+}
+.spending img{
+    position: absolute;
+    height: 15%;   
+    margin-top: -160px;
+    margin-left: -40px;
+}
+
+
+
+.features .loan{
+    background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
+    margin-left: auto;
+    margin-right: 125px;
+    margin-top: 50px;
+    text-align: left; 
+}
+.loan #e1{
+    text-align: right;
+    padding-top: 80px;
+}
+.loan #e2{ 
+    text-align: right;
+}
+.loan img{
+    position: absolute;
+    height: 14%;
+    margin-left: -40px;
+    margin-top: -155px;
+}
+
+
+
+
+.features .donation{
+    background-image: linear-gradient(to bottom right, #FFD26f, #3677FF);
+    margin-left: 125px;
+    margin-top: 50px;
+    text-align: left;
+}
+.donation #f1{
+    text-align: right;
+    padding-top: 80px;
+}
+.donation #f2{
+    text-align: right;
+}
+.donation img{
+    position: absolute;
+    height: 13.5%;   
+    margin-top: -145px;
+    margin-left: -40px;
+}
