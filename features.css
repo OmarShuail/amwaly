@@ -1,22 +1,23 @@
 .features{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 110px 50px 110px; /* TOP - LEFT - BOTTOWM - RIGHT */
+    padding: 50px 110px 50px 110px; /* TOP - RIGHT - BOTTOM - LEFT */
     height: auto;
     /*to make the whole div appear bellow the nav bar */
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .box{
-    position: relative;
     flex-basis: 50%;
     flex-grow: 1;
     height: 350px;
     text-align: center;
+    overflow: hidden; /*to make the image disappear whne it's getting out side the div*/
     border-radius: 20px;
     margin-bottom: 50px; /* space below divs */ 
-    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);   
+    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);  
+
 }
 .icon{
     position: relative;
@@ -29,12 +30,18 @@
     box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);   
 }
 .features p {
-    font-size: 1.5rem;
+    font-size: 1.50rem;
     font-weight: 700;
     line-height: 2rem;
     font-family: Montserrat;
     margin-top: 125px;
     margin-left: 325px;
+}
+.box img{
+    display: block; /* remove extra space below image */
+    height: 140%;
+    margin-top: -180px;
+    
 }
 
 
@@ -51,19 +58,7 @@
 }
 #income{
     background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
-    
 }
-#income img{
-    display: block; /* remove extra space below image */
-    height: 90%;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: -175px;
-    margin-left: -25px;
-    transform: rotate(20deg);
-}
-
-
 #investIcon{
     box-shadow: none;
     /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
@@ -78,15 +73,7 @@
 #invest{
     background-image: linear-gradient(to bottom right, #FAB2FF, #1904E5);
 }
-#invest img{
-    display: block; /* remove extra space below image */
-    height: 90%;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: -175px;
-    margin-left: -25px;
-    transform: rotate(20deg);
-}
+
 
 
 #emergencyIcon{
@@ -102,15 +89,6 @@
 }
 #emergency{
     background-image: linear-gradient(to bottom right, #F05F57, #360940);
-}
-#emergency img{
-    display: block; /* remove extra space below image */
-    height: 90%;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: -175px;
-    margin-left: -25px;
-    transform: rotate(20deg);
 }
 
 
@@ -128,14 +106,6 @@
 #spending{
     background-image: linear-gradient(to bottom right, #FFA8A8, #FCFF00);
 }
-#spending img{
-    display: block; /* remove extra space below image */
-    max-width: 115%;
-    max-height: 115%;
-    margin-top: -215px;
-    margin-left: -70px;
-    transform: rotate(5deg);
-}
 
 
 #loanIcon{
@@ -152,15 +122,6 @@
 #loan{
     background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
 }
-#loan img{
-    display: block; /* remove extra space below image */
-    height: 90%;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: -175px;
-    margin-left: -25px;
-    transform: rotate(20deg);
-}
 
 
 #donationIcon{
@@ -176,13 +137,4 @@
 }
 #donation{
     background-image: linear-gradient(to bottom right, #FFD26f, #3677FF);
-}
-#donation img{
-    display: block; /* remove extra space below image */
-    height: 90%;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: -175px;
-    margin-left: -25px;
-    transform: rotate(20deg);
 }

@@ -1,3 +1,151 @@
+@media (max-width: 1242px) {
+    .features{
+        padding: 50px 25px 50px 25px !important;
+    }
+    .features p {
+        font-size: 1rem !important;
+        font-weight: 0 !important;
+        line-height: 1.50rem !important ;
+        margin-top: 25px !important;
+        margin-left: 0px !important;
+    }
+    .box{
+        flex-basis: 100% !important; 
+        height: 280px !important;
+        text-align: center !important; 
+    } 
+    .icone{
+        margin-bottom: 0px!important; /* space below divs */ 
+        height: 1px !important;
+    }
+    
+    /* income */
+    #income img{
+        height: 65% !important; 
+        margin-top: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #incomeIcon{
+        height: 150px;
+    }
+    #incomeIcon img{
+        height: 80% !important;
+        margin-right: 0 !important;
+    }
+
+    /* invest */
+    #invest img{
+        height: 65% !important; 
+        margin-top: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #investIcon{
+        height: 100px;
+    }
+    #investIcon img{
+        height: 80% !important;
+        margin-left: 0 !important;
+    }
+
+    /* emergency */
+    #emergency img{
+        height: 65% !important; 
+        margin-top: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #emergencyIcon{
+        height: 100px;
+    }
+    #emergencyIcon img{
+        height: 80% !important;
+        margin-right: 0 !important;
+    }
+
+    /* spending */
+    #spending img{
+        height: 65% !important; 
+        margin-top: 0px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #spendingIcon{
+        height: 100px;
+    }
+    #spendingIcon img{
+        height: 80% !important;
+        margin-left: 0 !important;
+    }
+
+    /* loan */
+    #loan img{
+        height: 65% !important; 
+        margin-top: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #loanIcon{
+        height: 100px;
+    }
+    #loanIcon img{
+        height: 80% !important;
+        margin-right: 0 !important;
+    }
+
+    /* donation */
+    #donation img{
+        height: 65% !important; 
+        margin-top: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #donationIcon{
+        height: 100px;
+    }
+    #donationIcon img{
+        height: 80% !important;
+        margin-left: 0 !important;
+    }
+    #incomeIcon{
+        order: -12;
+    }  
+    #income{
+        order: -11
+    }
+    #invest{
+        order: -9;
+    }
+    #investIcon{
+        order: -10;
+    }
+    #emergencyIcon{
+        order: -8;
+    }
+    #emergency{
+        order: -7;
+    }
+    #spendingIcon{
+        order: -6;
+    }
+    #spending{
+        order: -5;
+    }
+    #loanIcon{
+        order: -4;
+    }
+    #loan{
+        order: -3;
+    }
+    #donationIcon{
+        order: -2;
+    }
+    #donation{
+        order: -1;
+    }
+}
+
 @media (max-width: 940px){
     .checkbtn{
         display: block;
@@ -49,43 +197,9 @@
     .box{
         flex-basis: 100%;
     }
-    #incomeIcon{
-        order: -12;
-    }  
-    #income{
-        order: -11
-    }
-    #invest{
-        order: -9;
-    }
-    #investIcon{
-        order: -10;
-    }
-    #emergencyIcon{
-        order: -8;
-    }
-    #emergency{
-        order: -7;
-    }
-    #spendingIcon{
-        order: -6;
-    }
-    #spending{
-        order: -5;
-    }
-    #loanIcon{
-        order: -4;
-    }
-    #loan{
-        order: -3;
-    }
-    #donationIcon{
-        order: -2;
-    }
-    #donation{
-        order: -1;
-    }
+    
 }
+
 @media(max-width: 671px){
     .main{
         padding-right: 0;
@@ -126,7 +240,7 @@
 @media (max-width: 432px){
     .main h1{
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 85px;
         color: #ffffff;
     }
@@ -140,123 +254,10 @@
         font-size: 100px;
     }
     .downloadButton{
-        margin-top: 25px;
+        margin-top: 20px;
         font-size: 25px;
     }
     .greenline{
         display: none;
-    }
-
-    .features{
-        padding: 50px 25px 50px 25px !important;
-    }
-    .features p {
-        font-size: 1rem !important;
-        font-weight: 0 !important;
-        line-height: 1.50rem !important ;
-        margin-top: 25px !important;
-        margin-left: 0px !important;
-    }
-    .box{
-        flex-basis: 100% !important; 
-        height: 280px !important;
-        text-align: center !important; 
-    } 
-    .icone{
-        margin-bottom: 0px!important; /* space below divs */ 
-        height: 1px !important;
-    }
-    
-    /* income */
-    #income img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-    #incomeIcon{
-        height: 100px;
-    }
-    #incomeIcon img{
-        height: 80% !important;
-        margin-right: 0 !important;
-    }
-
-    /* invest */
-    #invest img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-    #investIcon{
-        height: 100px;
-    }
-    #investIcon img{
-        height: 80% !important;
-        margin-left: 0 !important;
-    }
-
-    /* emergency */
-    #emergency img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-    #emergencyIcon{
-        height: 100px;
-    }
-    #emergencyIcon img{
-        height: 80% !important;
-        margin-right: 0 !important;
-    }
-
-    /* spending */
-    #spending img{
-        height: 80% !important; 
-        margin-top: 0px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-    #spendingIcon{
-        height: 100px;
-    }
-    #spendingIcon img{
-        height: 80% !important;
-        margin-left: 0 !important;
-    }
-
-    /* loan */
-    #loan img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-    #loanIcon{
-        height: 100px;
-    }
-    #loanIcon img{
-        height: 80% !important;
-        margin-right: 0 !important;
-    }
-
-    /* donation */
-    #donation img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-    #donationIcon{
-        height: 100px;
-    }
-    #donationIcon img{
-        height: 80% !important;
-        margin-left: 0 !important;
-    }
-
-    
-    
+    }   
 }
