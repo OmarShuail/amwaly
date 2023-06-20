@@ -18,14 +18,14 @@
         margin-bottom: 0px!important; /* space below divs */ 
         height: 1px !important;
     }
-    
-    /* income */
-    #income img{
-        height: 65% !important; 
-        margin-top: 15px !important;
+    .box img{
+        height: 110% !important; 
+        margin-top: 10px !important;
         margin-right: auto !important;
         margin-left: auto !important;
     }
+    
+    /* income */
     #incomeIcon{
         height: 150px;
     }
@@ -35,12 +35,6 @@
     }
 
     /* invest */
-    #invest img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
     #investIcon{
         height: 100px;
     }
@@ -50,12 +44,6 @@
     }
 
     /* emergency */
-    #emergency img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
     #emergencyIcon{
         height: 100px;
     }
@@ -65,12 +53,6 @@
     }
 
     /* spending */
-    #spending img{
-        height: 65% !important; 
-        margin-top: 0px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
     #spendingIcon{
         height: 100px;
     }
@@ -80,12 +62,6 @@
     }
 
     /* loan */
-    #loan img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
     #loanIcon{
         height: 100px;
     }
@@ -95,12 +71,6 @@
     }
 
     /* donation */
-    #donation img{
-        height: 65% !important; 
-        margin-top: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
     #donationIcon{
         height: 100px;
     }
@@ -108,6 +78,7 @@
         height: 80% !important;
         margin-left: 0 !important;
     }
+
     #incomeIcon{
         order: -12;
     }  
@@ -235,6 +206,29 @@
     }
     .icon{
         display: none;
+    }
+    .devBox p{
+        font-size: 2rem;
+        font-weight: 550;
+        color: #000000;
+    }
+    .devBox h3{
+        color: #666;
+        font-size: 15px;
+        padding: 30px;
+    }
+    .devBox p{
+        font-size: 1.25rem;
+        font-weight: 550;
+        color: #000000;
+    }
+    .devBox h3{
+        text-align: center;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .devBox h2{
+        width: 150px;
     }
 }
 @media (max-width: 432px){
