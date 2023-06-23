@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="hamMenu.css">
     <link rel="stylesheet" href="phoneSc.css">
     <link rel="stylesheet" href="features.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <meta name="description" content="نظام رهيب يدير أموالك بتصميم عصري" />
     <meta property="og:image" content="assets/Logo/MONEY-GREEN.png" />
     <link rel="icon" type="image/JPG" href="assets/Logo/MONEY-GREEN.png">
@@ -38,8 +41,8 @@
                 
                 <ul class="active">
                     <li><a href="#">حمل التطبيق</a></li>
-                    <li><a href="#">المطورين</a></li>
-                    <li><a href="#">الميزات</a></li>
+                    <li><a href="#DEVELOPERS">المطورين</a></li>
+                    <li><a href="#FEATURES">الميزات</a></li>
                     <li><a href="#">الرئيسية</a></li>
                 </ul>
             </nav>
@@ -47,7 +50,7 @@
         <div class="main">
 
           <div class="mainLeft">
-            <img src="assets/Phone/OverView-Iphone-Angle.png" alt="">
+            <img src="assets/Phone/OverView-Iphone-Angle.png">
           </div>
           <h1>الطريقة الصحيحة لإدارة اموالك</h1><br>
           <p>في أموالي صممنا</p>
@@ -60,98 +63,178 @@
           <div class="greenline"></div>
           
         </div>
-
+        
     <div class="features">
-      <!--Income-->
-      <div class="icon" id="incomeIcon">
-        <img src="assets/icons/icon/money.png" alt="">
-      </div>
-      <div class="box" id="income">
-        <p>أضف أي مدخول يجيك<br> وقسمه براحتك </p>
-        <img src="assets/iPhone/IphoneFace/Income.png" alt="">
+      <!-- title -->
+      <div class="container-cards">
+        <div class="title">
+          <h1 id="FEATURES">الميزات</h1>
+        </div>
       </div>
 
-      <!--invest-->
-      <div class="box" id="invest">
-        <p>تابع جميع استثماراتك <br> بتفاصيله </p>
-        <img src="assets/iPhone/IphoneFace/Investing.png" alt="">
-      </div>
+      <!-- income -->
+      <div class="container-cards">
+        
+        <div class="icon-left">
+          <div class="icon-img">
+            <img class="box-shadow-img" src="assets/icons/icon/money.png">
+          </div>
+        </div>
 
-      <div class="icon" id="investIcon">
-        <img src="assets/icons/icon/invest.png" alt="">
+        <div class="cards color-income box-shadow">
+          <div class="img">
+            <img src="assets/iPhone/IphoneFace/income.png">
+          </div>
+          <div class="details">
+            <h1>الدخل</h1>
+            <p>أضف أي مدخول يجيك وقسمه براحتك </p>
+          </div>
+        </div>
+
       </div>
       
-      <!--Emergency-->
-      <div class="icon" id="emergencyIcon">
-        <img src="assets/icons/icon/siren.png" alt="">
-      </div>
-      <div class="box" id="emergency">
-        <p>كون لك كاش الطوارئ <br> لأي حالة حرجة تواجهك</p>
-        <img src="assets/iPhone/IphoneFace/Emergency.png" alt="">
-      </div>
-
-      <!--Spending-->
-      <div class="box" id="spending">
-        <p>والمصروف ؟ طبعا عليك <br>وخل تقسيمه علينا</p>
-        <img src="assets/iPhone/IphoneFace/Expens.png" alt="">
-      </div>
-      <div class="icon" id="spendingIcon">
-        <img src="assets/icons/icon/money-2.png" alt="">
-      </div>
-      
-      <!--Loan-->
-      <div class="icon" id="loanIcon">
-        <img src="assets/icons/icon/lend.png" alt="">
-      </div>
-      <div class="box" id="loan">
-        <p>مسلف أو مستلف ؟ <br>جميع تسجلها وتراقبها</p>
-        <img src="assets/iPhone/IphoneFace/Loans.png" alt="">
-      </div>
-
-      <!--Donation-->
-      <div class="box" id="donation">
-        <p>وأكيد تبي هدف تبرع شهري <br>ولا تشيل هم حسبنا حسابه </p>
-        <img src="assets/iPhone/IphoneFace/Donation.png" alt="">
+      <!-- invest -->
+      <div class="container-cards">
+        
+        <div class="cards  color-invest  box-shadow">
+          <div class="img">
+            <img src="assets/iPhone/IphoneFace/Investing.png">
+          </div>
+          <div class="details">
+            <h1>الأستثمار</h1>
+            <p>تابع جميع استثماراتك بتفاصيله </p>
+          </div>
+        </div>
+        
+        <div class="icon-right">
+          <div class="icon-img">
+            <img  class="box-shadow-img" src="assets/icons/icon/invest.png">
+          </div>
+        </div>
       </div>
       
-      <div class="icon" id="donationIcon">
-        <img src="assets/icons/icon/healthcare.png" alt="">
+      <!-- emergency -->
+      <div class="container-cards">
+        
+        <div class="icon-left">
+          <div class="icon-img  box-shadow-img">
+            <img src="assets/icons/icon/siren.png">
+          </div>
+        </div>
+
+        <div class="cards  color-emergency  box-shadow">
+          <div class="img">
+            <img src="assets/iPhone/IphoneFace/Emergency.png">
+          </div>
+          <div class="details">
+            <h1>كاش الطوارئ</h1>
+            <p>كون لك كاش الطوارئ لأي حالة حرجة تواجهك</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- spending -->
+      <div class="container-cards ">
+      
+        <div class="cards color-income box-shadow">
+          <div class="img">
+            <img src="assets/iPhone/IphoneFace/Expens.png">
+          </div>
+          <div class="details">
+            <h1>مصروفات</h1>
+            <p>والمصروف ؟ طبعا عليك وخل تقسيمه علينا</p>
+          </div>
+        </div>
+        <div class="icon-right">
+          <div class="icon-img">
+            <img src="assets/icons/icon/money-2.png">
+          </div>
+        </div>
+      </div>
+
+      <!-- loan -->
+      <div class="container-cards">
+        
+        <div class="icon-left">
+          <div class="icon-img  box-shadow-img">
+            <img src="assets/icons/icon/goal-2.png">
+          </div>
+        </div>
+
+        <div class="cards  color-loan  box-shadow">
+          <div class="img">
+            <img src="assets/iPhone/IphoneFace/Loans.png">
+          </div>
+          <div class="details">
+            <h1>TEMP</h1>
+            <p>مسلف أو مستلف ؟ جميع تسجلها وتراقبها</p>
+          </div>
+        </div>
       </div>
       
-    </div>
+      <!-- donation -->
+      <div class="container-cards ">
+      
+        <div class="cards color-donation box-shadow">
+          <div class="img">
+            <img src="assets/iPhone/IphoneFace/Donation.png">
+          </div>
+          <div class="details">
+            <h1>التبرع</h1>
+            <p>وأكيد تبي هدف تبرع شهري ولا تشيل هم حسبنا حسابه </p>
 
-    <div class="dev">
-        <h1 class="headingdev">المطورين</h1>
+          </div>
+        </div>
+        <div class="icon-right">
+          <div class="icon-img">
+            <img src="assets/icons/icon/healthcare.png">
+          </div>
+        </div>
+      </div>
+
+    </div> 
+
+      <div class="dev">
+        <h1 id="DEVELOPERS" class="headingdev">المطورين</h1>
         
         <div class="devContainer">
           <!--App Developer-->
           <div class="devBox" id="devApp">
-            <img src="assets/icons/languges/SWIFT.svg" alt="">
-            <p>سعود بن شايع آل حفيظ</p>
+            <img src="assets/icons/languges/SWIFT.svg">
+            <h1>سعود بن شايع آل حفيظ</h1>
             <h2> مطور التطبيق </h2>
-            <h3>Motivated and dedicated CS student with a 
+            <p>Motivated and dedicated CS student with a 
               passion for programming and problem-solving. 
               Experienced in Swift, SwiftUI, and Python, 
               Committed to continuous learning and seeking 
               opportunities to apply my skills and contribute 
               to innovative projects.
-            </h3>
-            <a href="https://twitter.com/SaudAlhafith"><img src="assets/Social/twitter.svg" alt=""></a>
-            <a href=""><img src="assets/Social/linkedin.svg" alt=""></a>
-            <a href=""><img src="assets/Social/github.svg" alt=""></a> 
+            </p>
+            <div class="social-media-wrapper">
+              <div class="social-media">
+                <a href="https://twitter.com/SaudAlhafith"><img src="assets/Social/twitter.svg" target="_blank"></a>
+                <a href=""><img src="assets/Social/linkedin.svg" target="_blank"></a>
+                <a href="https://github.com/SaudAlhafith"><img src="assets/Social/github.svg" target="_blank"></a>
+              </div>
+            </div> 
           </div>
 
           <!--Web Developer-->
           <div class="devBox" id="devWeb">
-            <img src="assets/icons/languges/HTML.svg" alt="">
-            <p>عمر بن سعد بن شعيل</p>
+            <img src="assets/icons/languges/HTML.svg">
+            <h1>عمر بن سعد بن شعيل</h1>
             <h2> مطور الموقع </h2>
-            <h3>Inspired CS student passionate about programming and problem-solving. 
-              Experienced in web development, Python, and Java. Committed to continuous learning and contributing to innovative projects.
-            </h3>
-            <a href="https://twitter.com/SaudAlhafith"><img src="assets/Social/twitter.svg" alt=""></a>
-            <a href=""><img src="assets/Social/linkedin.svg" alt=""></a>
-            <a href="https://github.com/SaudAlhafith"><img src="assets/Social/github.svg" alt=""></a>
+            <p>Inspired CS student passionate about programming and problem-solving. 
+              Experienced in web development, Python, and Java. 
+              Committed to continuous learning and contributing to innovative projects.
+            </p>
+            <div class="social-media-wrapper">
+              <div class="social-media">
+                <a href="https://twitter.com/Omar_Shuail1" target="_blank"><img src="assets/Social/twitter.svg"></a>
+                <a href=""><img src="assets/Social/linkedin.svg" target="_blank"></a>
+                <a href="https://github.com/s1duty" target="_blank"><img src="assets/Social/github.svg"></a>
+              </div>
+            </div>
           </div>
         </div>    
       </div>      

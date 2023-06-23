@@ -1,0 +1,54 @@
+      <!-- <div class="icon" id="incomeIcon">
+        <img src="assets/icons/icon/money.png" alt="">
+      </div>
+      <div class="box" id="income">
+        <p>أضف أي مدخول يجيك<br> وقسمه براحتك </p>
+        <img src="assets/iPhone/IphoneFace/Income.png" alt="">
+      </div>
+
+      
+      <div class="box" id="invest">
+        <p>تابع جميع استثماراتك <br> بتفاصيله </p>
+        <img src="assets/iPhone/IphoneFace/Investing.png" alt="">
+      </div>
+
+      <div class="icon" id="investIcon">
+        <img src="assets/icons/icon/invest.png" alt="">
+      </div>
+      
+     
+      <div class="icon" id="emergencyIcon">
+        <img src="assets/icons/icon/siren.png" alt="">
+      </div>
+      <div class="box" id="emergency">
+        <p>كون لك كاش الطوارئ <br> لأي حالة حرجة تواجهك</p>
+        <img src="assets/iPhone/IphoneFace/Emergency.png" alt="">
+      </div>
+
+      
+      <div class="box" id="spending">
+        <p>والمصروف ؟ طبعا عليك <br>وخل تقسيمه علينا</p>
+        <img src="assets/iPhone/IphoneFace/Expens.png" alt="">
+      </div>
+      <div class="icon" id="spendingIcon">
+        <img src="assets/icons/icon/money-2.png" alt="">
+      </div>
+      
+     
+      <div class="icon" id="loanIcon">
+        <img src="assets/icons/icon/lend.png" alt="">
+      </div>
+      <div class="box" id="loan">
+        <p>مسلف أو مستلف ؟ <br>جميع تسجلها وتراقبها</p>
+        <img src="assets/iPhone/IphoneFace/Loans.png" alt="">
+      </div>
+
+      
+      <div class="box" id="donation">
+        <p>وأكيد تبي هدف تبرع شهري <br>ولا تشيل هم حسبنا حسابه </p>
+        <img src="assets/iPhone/IphoneFace/Donation.png" alt="">
+      </div>
+      
+      <div class="icon" id="donationIcon">
+        <img src="assets/icons/icon/healthcare.png" alt="">
+      </div> -->

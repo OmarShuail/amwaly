@@ -1,140 +1,101 @@
-.features{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 110px 50px 110px; /* TOP - RIGHT - BOTTOM - LEFT */
-    height: auto;
-    /*to make the whole div appear bellow the nav bar */
-    position: relative;
-    z-index: 1;
+.box-shadow{
+    box-shadow: 0 30px 50px rgba(44, 45, 48, 0.50);
+}
+.color-income{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 }
 
-.box{
-    flex-basis: 50%;
-    flex-grow: 1;
+.box-shadow-img{
+    filter: drop-shadow(0 20px 30px rgba(44, 45, 48, 0.50));
+}
+.color-invest{
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+}
+.color-emergency{
+    background-image: linear-gradient(315deg, #ea2027 0%, #ee5a24 74%);
+
+}
+.color-income{
+    background: linear-gradient(to right rgb(51, 139, 147), (182, 244, 146));
+}
+.color-loan{
+    background-image: linear-gradient(315deg, #F1D46F 0%, #ED7B47 74%);
+}
+.color-donation{
+    background-image: linear-gradient(315deg, #4ca1af 0%,  #c4e0e5 74%);
+}
+
+
+
+
+.icon-spending .spending-icon{
+    width: 50px;
+}
+.features p, h1{
+    color: white;
+}
+ 
+.title h1{
+    font-size: 60px;
+    background: linear-gradient(to left, rgb(151, 194, 126), rgb(51, 139, 147));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container-cards{
+    width: 100%;
+    display: flex;
+    padding: 0px 7%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0px;
+}
+.cards{
+    width: 700px;
     height: 350px;
-    text-align: center;
-    overflow: hidden; /*to make the image disappear whne it's getting out side the div*/
     border-radius: 20px;
-    margin-bottom: 50px; /* space below divs */ 
-    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);  
-
+    display: flex;
+    overflow: hidden;
 }
-.icon{
-    position: relative;
-    flex-basis: 50%;
-    flex-grow: 1;
-    height: 350px;
+.img{
+    margin-left: 30px;
+}
+.cards img{
+    max-height: 150%;
+    margin-top: 30%;
+}
+.details{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    border-radius: 20px;
-    margin-bottom: 50px; /* space below divs */ 
-    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);   
-}
-.features p {
-    font-size: 1.50rem;
-    font-weight: 700;
-    line-height: 2rem;
-    font-family: Montserrat;
-    margin-top: 125px;
-    margin-left: 325px;
-}
-.box img{
-    display: block; /* remove extra space below image */
-    height: 140%;
-    margin-top: -180px;
-    margin-left: 20px;
-}
-
-
-#incomeIcon{
-    box-shadow: none;
-    /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
-    display: flex;
-    align-items: center;
+    margin: auto auto;
     justify-content: center;
-}
-#incomeIcon img{
-    height: 60%;
-    margin-right: 50px;
-}
-#income{
-    background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
-}
-#investIcon{
-    box-shadow: none;
-    /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
-#investIcon img{
-    height: 60%;
-    margin-left: 50px;
+.details h1{
+    margin-bottom: 20px;
 }
-#invest{
-    background-image: linear-gradient(to bottom right, #FAB2FF, #1904E5);
-}
-
-
-
-#emergencyIcon{
-    box-shadow: none;
-    /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
+.icon-left img{
+    width: 40%;
+    margin-top: 70px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#emergencyIcon img{
-    height: 60%;
-    margin-right: 50px;
-}
-#emergency{
-    background-image: linear-gradient(to bottom right, #F05F57, #360940);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-#spendingIcon{
-    box-shadow: none;
-    /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
+.icon-right img{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 40%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#spendingIcon img{
-    height: 70%;
-    margin-left: 50px;
-}
-#spending{
-    background-image: linear-gradient(to bottom right, #FFA8A8, #FCFF00);
-}
-
-
-#loanIcon{
-    box-shadow: none;
-    /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
+.icon-left-loan{
+    width: 40%;
+    margin-top: 70px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-#loanIcon img{
-    height: 50%;
-    margin-right: 50px;
-}
-#loan{
-    background-image: linear-gradient(to bottom right, #11998E, #38EF7D);
+.container-cards .icon-img{
+    margin: auto;
 }
 
-
-#donationIcon{
-    box-shadow: none;
-    /* to center the img inside the div ( NOT SURE IF IT"S SAFE ) */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#donationIcon img{
-    height: 60%;
-    margin-left: 50px;
-}
-#donation{
-    background-image: linear-gradient(to bottom right, #FFD26f, #3677FF);
-}

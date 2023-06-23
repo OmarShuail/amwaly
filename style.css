@@ -4,11 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
 }
-@font-face{
+/* @font-face{
     src: url(assets/Font/Montserrat-Arabic-Bold.ttf);
     font-family: Montserrat;
-}
+} */
 .container{
     width: 100%; 
     overflow: hidden;
@@ -36,6 +37,7 @@ nav{
 .title{
     float: right;
     color: #000000;
+    font-weight: 600;
     font-size: 35px;
     line-height: 80px;
     padding-right: 20px;
@@ -48,6 +50,7 @@ nav ul{
     left: 0;
     right: 0;
     text-align: center;
+    font-weight: 400;
 }
 nav ul li{
     display: inline-block; /* become next to each other*/
@@ -83,7 +86,7 @@ a.active,a:hover{
 .main{
     position: relative;
     background: radial-gradient(circle, #3c3d3f, #171717);
-    height: 720px;
+    height: 720px; 
     z-index: 0;
     padding-bottom: 50px;
     padding-right: 50px;
@@ -100,26 +103,25 @@ a.active,a:hover{
     text-align: right;
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 2rem;
-    font-family: Montserrat;
+    line-height: 2rem;  
     padding-top: 100px;
     color: #ffffff;
 }
 .main p{
     text-align: right;
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 200;
     padding: 2px;
     /*color: #b7b7b7; original color*/
     color: #ccc;
 }
 .main .mainRight{
-    padding-top: 200px;
+    padding-top: 190px;
     text-align: right;
 }
 .downloadButton{
     font-size: 45px;
-    padding: 5px 20px;
+    padding: 10px 25px;
     color: #ffffff;
     background-color: #60b033;
     border: 1px solid #263a1d;
@@ -142,9 +144,10 @@ a.active,a:hover{
     height: auto;
 }
 .headingdev{
+    font-size: 50px;
     padding-top: 50px;
     text-align: center;
-    font-family: Montserrat;
+    color: #f14a2f;
 }
 .devContainer{
     position: relative;
@@ -155,7 +158,8 @@ a.active,a:hover{
     padding: 85px 110px 50px 110px; /* TOP - RIGHT - BOTTOM - LEFT */
 }
 .devBox{
-    height: 425px;
+    position: relative;
+    height: 450px;
     width: 350px;
     padding-top: 25px;
     margin-bottom: 75px;
@@ -167,26 +171,36 @@ a.active,a:hover{
 }
 .devBox h2{
     font-size: 1rem;
-    font-family: Montserrat;
     margin-top: 15px;
     color: #ffffff;
     border: 1px solid ;
     border-radius: 8px;
     background: #60b033;
-    padding: 10px;
+    padding: 8px ;
     margin-left: auto;
     margin-right: auto;
     width: 225px;
 }
-.devBox p{
-    font-size: 2rem;
+.devBox h1{
+    font-size: 1.65rem;
     font-weight: 550;
     color: #000000;
 }
-.devBox h3{
+.devBox p{
     color: #666;
     font-size: 15px;
     padding: 30px;
+}
+.social-media-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
 }
 .devBox img{
     padding-bottom: 25px;
