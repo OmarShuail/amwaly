@@ -55,11 +55,42 @@
     }
     .icon-left{
         padding-bottom: 75px;
+    }   
+}
+@media(max-width: 700px) {
+    .features .img{
+        margin-left: 0 !important;
+        max-height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    
+    .cards{
+        flex-direction: column-reverse !important;
+        width: 100% !important;
+    }
+    .cards img{
+        max-height: 200% !important;
+        margin-top: 100px !important;   
+    }
+    .details{
+        padding: 35px 10px;
+    }
+    .details h1{
+        font-size: 25px;
+    }
+    .details p{
+        font-size: 15px;
+    }
+    .icon-left img{
+        width: 25% !important;
+    }
+    .icon-right img{
+        width: 25% !important;
+    }
 }
 
-@media(max-width: 671px){
+@media(max-width: 670px){
     .main{
         padding-right: 0;
     }

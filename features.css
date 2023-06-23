@@ -40,6 +40,7 @@
     background: linear-gradient(to left, rgb(151, 194, 126), rgb(51, 139, 147));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-left: 25px;
 }
 .container-cards{
     width: 100%;
@@ -84,9 +85,9 @@
 }
 
 .icon-right img{
-    display: flex;
     width: 40%;
     margin-top: 0px;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
