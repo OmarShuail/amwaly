@@ -148,6 +148,12 @@
     .devBox p{
         font-size: 12.5px;
     }
+    .downlaodAppContainer h1{
+        font-size: 40px;
+    }
+    .amwaly-green-logo{
+        width: 20%;
+    }
 }
 @media (max-width: 432px){
     .main h1{

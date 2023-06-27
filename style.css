@@ -123,6 +123,7 @@ a.active,a:hover{
 }
 .downloadButton{
     font-size: 45px;
+    cursor: pointer;
     padding: 10px 25px;
     color: #ffffff;
     background-color: #60b033;
@@ -206,4 +207,66 @@ a.active,a:hover{
 }
 .devBox img{
     padding-bottom: 25px;
+}
+
+/* Download The App Seciton */
+.downlaodApp{
+    height: 500px;
+    border-bottom: 5px solid #60b033; 
+}
+.downlaodAppContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 50px 0px; /* TOP - RIGHT - BOTTOM - LEFT */
+}
+.downlaodAppIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 20px 30px rgba(44, 45, 48, 0.30));
+}
+.amwaly-green-logo{
+    width: 7%;
+}
+.downlaodAppContainer h1{
+    font-size: 60px;
+    line-height: 2;
+    background: linear-gradient(to left, rgb(151, 194, 126), rgb(51, 139, 147));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.IOS-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+/* Footer Section */
+.footer{
+    height: 125px;
+    background: radial-gradient(circle, #3c3d3f, #171717);
+}
+.footerContainer{
+    display: flex;
+    justify-content:space-around;
+}
+.footerContainer h3{
+    padding-top: 20px;
+    color: #ffffff;
+}
+.footerTwitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+}
+.footerEmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
 }
