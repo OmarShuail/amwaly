@@ -72,6 +72,9 @@
     .icon-left{
         padding-bottom: 75px;
     }   
+    .devBox{
+        height: 500px;
+    }
 }
 @media(max-width: 700px) {
     .features .img{
