@@ -74,7 +74,7 @@
       </div>
 
       <!-- income -->
-      <div class="container-cards">
+      <div class="container-cards show">
         
         <div class="icon-left">
           <div class="icon-img">
@@ -95,7 +95,7 @@
       </div>
       
       <!-- invest -->
-      <div class="container-cards">
+      <div class="container-cards show">
         
         <div class="cards  color-invest  box-shadow">
           <div class="img">
@@ -115,7 +115,7 @@
       </div>
       
       <!-- emergency -->
-      <div class="container-cards">
+      <div class="container-cards show">
         
         <div class="icon-left">
           <div class="icon-img  box-shadow-img">
@@ -135,7 +135,7 @@
       </div>
 
       <!-- spending -->
-      <div class="container-cards ">
+      <div class="container-cards show">
       
         <div class="cards color-income box-shadow">
           <div class="img">
@@ -154,7 +154,7 @@
       </div>
 
       <!-- loan -->
-      <div class="container-cards">
+      <div class="container-cards show">
         
         <div class="icon-left">
           <div class="icon-img  box-shadow-img">
@@ -174,7 +174,7 @@
       </div>
       
       <!-- donation -->
-      <div class="container-cards ">
+      <div class="container-cards show">
       
         <div class="cards color-donation box-shadow">
           <div class="img">
@@ -194,11 +194,14 @@
       </div>
 
     </div> 
+
+    <!-- Devolopers Section -->
+
     <section id="DEVELOPERS"></section>
       <div class="dev">
         <h1 class="headingdev">المطورين</h1>
         
-        <div class="devContainer">
+        <div class="devContainer show">
           <!--App Developer-->
           <div class="devBox" id="devApp">
             <img class="devIcon" src="assets/icons/languges/SWIFT.svg" alt="swift logo">
@@ -270,5 +273,30 @@
           </div>
         </div>
       </div>
+
+      <!--Java Script Section-->
+
+      <script type="text/javascript">
+        window.addEventListener('scroll', show);
+
+        function show(){
+          var shows = document.querySelectorAll('.show');
+
+          for( var i = 0 ; i < shows.length ; i++){
+
+            var windowHeight = window.innerHeight;
+            var showTop = shows[i].getBoundingClientRect().top;
+            var showPoint = 150;
+
+            if( showTop < windowHeight - showPoint){
+              shows[i].classList.add('active');
+            }
+            else{
+              shows[i].classList.remove('active');
+            }
+
+          }
+        }
+      </script>
   </body>
 </html>
