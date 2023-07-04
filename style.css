@@ -10,10 +10,6 @@ html{
     box-sizing: border-box;
     font-family: 'Readex Pro', sans-serif;
 }
-/* @font-face{
-    src: url(assets/Font/Montserrat-Arabic-Bold.ttf);
-    font-family: Montserrat;
-} */
 .container{
     width: 100%; 
     overflow: hidden;
