@@ -142,6 +142,8 @@ a.active,a:hover{
 
 
 /* DEV SECTION */
+
+
 .dev{
     border-top: 15px solid #60b033;
     height: auto;
@@ -153,24 +155,32 @@ a.active,a:hover{
     color: #f14a2f;
 }
 .devContainer{
-    position: relative;
-    z-index: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    padding: 85px 110px 50px 110px; /* TOP - RIGHT - BOTTOM - LEFT */
+    justify-content: space-around;
+    align-items: flex-start; /* Add this line */
+    padding: 85px 110px 50px 110px;
 }
 .devBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Add this line */
+    align-items: center; /* Add this line */
     position: relative;
-    height: 450px;
+    height: 475px;
     width: 350px;
     padding-top: 25px;
     margin-bottom: 75px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);  
+    box-shadow: 0 0 50px rgba(44, 45, 48, 0.50);
     background: #f4f4f4;
     /* background: radial-gradient(circle, #3c3d3f, #171717); */
+}
+.devBox h1{
+    font-size: 1.65rem;
+    font-weight: 550;
+    color: #000000;
 }
 .devBox h2{
     font-size: 1rem;
@@ -184,32 +194,31 @@ a.active,a:hover{
     margin-right: auto;
     width: 225px;
 }
-.devBox h1{
-    font-size: 1.65rem;
-    font-weight: 550;
-    color: #000000;
-}
-.devBox p{
+
+/* About the developer */
+.devBox .description{
     color: #666;
     font-size: 15px;
-    padding: 30px;
+    padding: 25px 30px 0 30px; /* TOP - RIGHT - BOTTOM - LEFT */
 }
-.social-media-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-media{
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 0;
-}
-.devBox img{
-    padding-bottom: 25px;
+.devEmail{
+    color: #666;
+    font-size: 15px;
+    padding: 10px 0 10px 0; /* TOP - RIGHT - BOTTOM - LEFT */
 }
 
+/* social media for each devoloper */
+.social-media-wrapper{
+    margin-top: auto; /* Add this line */
+}
+.devIcon{
+    padding-bottom: 10px;
+}
+
+
 /* Download The App Seciton */
+
+
 .downlaodApp{
     height: 500px;
     border-bottom: 5px solid #60b033; 
@@ -243,7 +252,11 @@ a.active,a:hover{
     height: 15%;
     width: 100%;
 }
+
+
 /* Footer Section */
+
+
 .footer{
     height: 125px;
     background: radial-gradient(circle, #3c3d3f, #171717);
