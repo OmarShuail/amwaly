@@ -148,7 +148,9 @@ a.active,a:hover{
     font-size: 50px;
     padding-top: 50px;
     text-align: center;
-    color: #f14a2f;
+    background: linear-gradient(to left, #ff2200, rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .devContainer{
     display: flex;
