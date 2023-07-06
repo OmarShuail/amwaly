@@ -54,7 +54,7 @@ nav ul{
 nav ul li{
     line-height: 80px;
     margin: 0 5px;
-    padding: 0 20px;
+    padding: 0 15px;
     
 }
 nav ul li a{
@@ -254,31 +254,45 @@ a.active,a:hover{
 
 
 .footer{
-    height: 125px;
+    height: auto;
+    padding-bottom: 20px;
     background: radial-gradient(circle, #3c3d3f, #171717);
 }
 .footerContainer{
     display: flex;
     justify-content:space-around;
 }
-.footerContainer h3{
+.footer h3{
     padding-top: 20px;
     color: #ffffff;
+}
+.footer img{
+    padding-top: 20px;
 }
 .footerTwitter{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 35px;
+    
 }
 .footerEmail{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 35px;
 }
+
+.footerPrivacyPolicyContainer{
+    display: flex;
+    justify-content:center;
+}
+.PrivacyPolicyFooter:hover h3 {
+    color: #6ada29;
+    transition: .5s;
+}
+
+
 
 
 /* Java Script */
