@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="PrivacyPolicyStyle.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="phoneSc.css">
+    <link rel="stylesheet" href="hamMenu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap">
     <link rel="icon" type="image/JPG" href="assets/Logo/MONEY-WHITE.png">
     <meta name="description" content="Amwaly privacy policy page" />
     <meta property="og:image" content="assets/Logo/MONEY-GREEN.png" />
@@ -12,7 +16,39 @@
 
   
   <body>
-    <h1>Privacy Policy</h1>
+
+    <div class="container">
+      <div class="navbar">
+          <nav>
+
+              <img src="assets/Logo/LogoIOSIcon.png" class="logo" alt="Amwaly logo">
+              <h1 class="title">أموالي</h1>
+              <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                  <path
+                        class="line top"
+                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                  <path
+                        class="line middle"
+                        d="m 30,50 h 40" />
+                  <path
+                        class="line bottom"
+                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+              </i>
+              </label>
+              
+              <ul class="active">
+                  <li><a href="index.html#DownloadTheApp">حمل التطبيق</a></li>
+                  <li><a href="index.html#DEVELOPERS">المطورين</a></li>
+                  <li><a href="index.html#FEATURES">الميزات</a></li>
+                  <li><a href="index.html">الرئيسية</a></li> 
+              </ul>
+          </nav>
+      </div>
+    </div>
+    <h2>Privacy Policy</h2>
     <p>
       Saud Alhafith built the Amwaly app as a Free app. This SERVICE is provided
       by Saud Alhafith at no cost and is intended for use as is.
@@ -71,8 +107,8 @@
       I may employ third-party companies and individuals due to the following
       reasons:
     </p>
-    <ul>
-      <li>To facilitate our Service;</li>
+    <ul class="list-disc">
+      <li>facilitate our Service;</li>
       <li>To provide the Service on our behalf;</li>
       <li>To perform Service-related services; or</li>
       <li>To assist us in analyzing how our Service is used.</li>
@@ -149,8 +185,25 @@
 
     <style>
         body {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            padding: 2.5em;
+          font-family: 'Readex Pro', sans-serif;   
+          
+        }
+        h2{
+          padding-top: 100px;
+          padding-left: 0.5em;
+          font-size:  32px;
+        }
+        strong{
+          padding: 1.0em;
+        }
+        p{
+          padding: 1.0em;
+        }
+        .list-disc li{
+          list-style: disc;
+        }
+        ul {
+          padding-left: 40px;
         }
     </style>
   </body>

@@ -148,9 +148,7 @@ a.active,a:hover{
     font-size: 50px;
     padding-top: 50px;
     text-align: center;
-    background: linear-gradient(to left, #ff2200, rgb(255, 0, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(255, 34, 0);
 }
 .devContainer{
     display: flex;
@@ -176,9 +174,10 @@ a.active,a:hover{
     /* background: radial-gradient(circle, #3c3d3f, #171717); */
 }
 .devBox h1{
-    font-size: 1.65rem;
+    font-size: 1.50rem;
     font-weight: 550;
-    color: #000000;
+    color: #000;
+    
 }
 .devBox h2{
     font-size: 1rem;
