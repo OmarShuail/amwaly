@@ -6,7 +6,7 @@
         font-size: 40px;
     }
     nav .logo{
-        padding-right: 20px;
+        padding-left: 20px;
         height: 50px;
     }
     nav ul li a{
@@ -20,27 +20,15 @@
         text-align: center;
         background: #2c2d30;
         transition: all 0.5s;
-        left: -200%; /* hiding the ul to the left side*/
+        right: -200%; /* hiding the ul to the left side*/
     }
     nav ul{
         flex-direction: column;
         justify-content: flex-start;
     }
-    ul li:first-child{
-        order: 4;
-    }
-    ul li:nth-child(2){
-        order: 3;
-    }
-    ul li:nth-child(3){
-        order: 2;
-    }
-    ul li:nth-child(4){
-        order: 1;
-    }
     nav ul li{
         /* display: block; */
-        margin: 35px 0;
+        margin: 35px 0; 
         line-height: 30px;    
     }
     nav ul li a{
@@ -53,14 +41,23 @@
         transition: all 0.5s;
     }
     #check:checked ~ ul{
-        left: 0; /* idk why but this important to make the list show when clicking the button*/
+        right: 0; /* idk why but this important to make the list show when clicking the button*/
     }
     .main{
         height: 670px;
     }
     .main img{
-        top: 210px;
-        height: 60%;
+        margin-top: 125px;
+        height: 50%;
+    }
+    .mainRight{
+        padding-top: 210px;
+    }
+    .main h1{
+        font-size: 28px;
+    }
+    .main p{
+        font-size: 18px;
     }
     .container-cards{
         flex-direction: column;
@@ -111,33 +108,35 @@
 
 @media(max-width: 670px){
     .main{
-        padding-right: 0;
+        padding-left: 0;
     }
     .main h1{
         text-align: center;
-        font-size: 1.75rem;
-        padding-top: 85px;
+        font-size: 1.25rem;
+        padding: 85px 0px 0px 0px; /* TOP - RIGHT - BOTTOM - LEFT */
         color: #ffffff;
     }
     .main p{
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
+        padding-left: 0px;
     }
-    .mainLeft{
-        text-align: center;
-        padding-right: 295px;
-    }
-    .main img{
-        height: 45%;
-        top: 325px;
-    }
-    .main .mainRight{
-        padding-top: 0;
-        text-align: center;
+    .mainRight{
+        display: flex;
+        justify-content: center;
+        margin-right: 230px;
+        padding-top: 15px;
     }
     .downloadButton{
-        margin-top: 25px;
-        font-size: 30px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .main img{
+        margin-top: 175px;
+        height: 45%;
+    }
+    .mainLeftWrapper{
+        justify-content: center;
     }
     .greenline{
         display: none;
@@ -152,7 +151,7 @@
         font-size: 12.5px;
     }
     .downlaodAppContainer h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .amwaly-green-logo{
         width: 20%;
@@ -164,27 +163,28 @@
         height: 50%;
     }
 }
-@media (max-width: 432px){
+@media (max-width: 456px){
     .main h1{
         text-align: center;
-        font-size: 25px;
+        font-size: 1.10rem;
         padding-top: 85px;
         color: #ffffff;
     }
     .main p{
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
     }
     .downloadButton{
         margin: 0;
-        margin-top: 25px;
-        font-size: 100px;
+        font-size: 13px;
     }
-    .downloadButton{
-        margin-top: 20px;
-        font-size: 25px;
+    .mainRight{
+        margin-right: 150px;
     }
     .greenline{
         display: none;
     }   
+    .downlaodAppContainer h1{
+        font-size: 25px;
+    }
 }

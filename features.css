@@ -31,7 +31,7 @@
 .icon-spending .spending-icon{
     width: 50px;
 }
-.features p, h1{
+.feature p, h1{
     color: white;
 }
  
@@ -40,7 +40,6 @@
     background: linear-gradient(to left, rgb(151, 194, 126), rgb(51, 139, 147));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 25px;
 }
 .container-cards{
     width: 100%;

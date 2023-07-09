@@ -19,8 +19,7 @@ html{
     width: 100%;
     display: flex;
     align-items: center;
-    z-index: 5;
-    
+    z-index: 5;   
 }
 nav{
     width: 100%; 
@@ -29,18 +28,18 @@ nav{
     border-bottom: 5px solid #60b033; 
 }
 .logo{
-    float: right;
+    float: left;
     height: 60px;
     margin-top: 10px;
-    padding-right: 50px;
+    padding-left: 50px;
 }
 .title{
-    float: right;
+    float: left;
     color: #000000;
     font-weight: 500;
     font-size: 35px;
     line-height: 80px;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 nav ul{
     display: flex;
@@ -70,8 +69,9 @@ a.active,a:hover{
     display: none; /*removing the defualt check box*/
 }
 .checkbtn{
+    text-align: right;
     font-size: 30px;
-    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
     display: none; /* making it disappear for all screen sizes*/
     line-height: 80px;
@@ -87,40 +87,49 @@ a.active,a:hover{
     height: 720px; 
     z-index: 0;
     padding-bottom: 50px;
-    padding-right: 50px;
     padding-top: 25px;
     box-shadow: 0 15px 35px rgba(44, 45, 48, 0.50);
 }
-.main img{
+
+.mainLeft{
     position: absolute;
     top: 125px;
+    height: 100%;
+}
+.mainRight{
+    padding-top: 200px;
+}
+.mainLeftWrapper{
+    display: flex;
+    justify-content: end;
+}
+
+.main img{
     height: 75%;
 }
 
 .main h1{
-    text-align: right;
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 2rem;  
-    padding-top: 100px;
+    text-align: left;
+    font-size: 32px;
+    line-height: 32px; 
+    padding: 100px 0px 0px 50px; /* TOP - RIGHT - BOTTOM - LEFT */
     color: #ffffff;
 }
 .main p{
-    text-align: right;
-    font-size: 25px;
+    text-align: left;
+    font-size: 22.5px;
     font-weight: 200;
-    padding: 2px;
-    /*color: #b7b7b7; original color*/
+    padding-bottom: 2px;
+    padding-left: 50px;
     color: #ccc;
 }
-.main .mainRight{
-    padding-top: 190px;
-    text-align: right;
-}
+
 .downloadButton{
-    font-size: 40px;
-    cursor: pointer;
+    position: absolute;
+    font-size: 32.5px;
     padding: 10px 25px;
+    margin-left: 45px;
+    cursor: pointer;
     color: #ffffff;
     background-color: #60b033;
     border: 1px solid #263a1d;
@@ -154,14 +163,14 @@ a.active,a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start; /* Add this line */
+    align-items: flex-start; 
     padding: 85px 110px 50px 110px;
 }
 .devBox{
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Add this line */
-    align-items: center; /* Add this line */
+    justify-content: space-between;
+    align-items: center; 
     position: relative;
     height: 475px;
     width: 350px;
@@ -206,7 +215,7 @@ a.active,a:hover{
 
 /* social media for each devoloper */
 .social-media-wrapper{
-    margin-top: auto; /* Add this line */
+    margin-top: auto; 
 }
 .devIcon{
     padding-bottom: 10px;
