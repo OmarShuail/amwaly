@@ -50,6 +50,9 @@
         margin-top: 125px;
         height: 50%;
     }
+    .mainLeft{
+        height: 85%;
+    }
     .mainRight{
         padding-top: 210px;
     }
@@ -127,13 +130,16 @@
         margin-right: 230px;
         padding-top: 15px;
     }
+    .mainLeft{
+        margin-top: 60px;
+    }
+    .main img{
+        margin-top: 1px;
+        height: 55%;
+    }
     .downloadButton{
         font-size: 20px;
         margin-left: 0px;
-    }
-    .main img{
-        margin-top: 175px;
-        height: 45%;
     }
     .mainLeftWrapper{
         justify-content: center;
@@ -166,20 +172,20 @@
 @media (max-width: 456px){
     .main h1{
         text-align: center;
-        font-size: 1.10rem;
+        font-size: 1rem;
         padding-top: 85px;
         color: #ffffff;
     }
     .main p{
         text-align: center;
-        font-size: 12px;
+        font-size: 12.5px;
     }
     .downloadButton{
         margin: 0;
-        font-size: 13px;
+        font-size: 15px;
     }
     .mainRight{
-        margin-right: 150px;
+        margin-right: 190px;
     }
     .greenline{
         display: none;
