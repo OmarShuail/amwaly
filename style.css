@@ -275,7 +275,10 @@ a.active,a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+}
+.footerTwitter:hover h3 {
+    color: #6ada29;
+    transition: .5s;
 }
 .footerEmail{
     display: flex;
